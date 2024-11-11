@@ -39,6 +39,8 @@
     margin-top: 25px;
   }
   .btn {
+    width: 100%;
+    max-width: 150px;
     background: $button-bg;
     border: none;
     color: $white;
@@ -49,6 +51,6 @@
     line-height: 1em;
     text-transform: uppercase;
     letter-spacing: normal;
-    border-radius: 0;
+    border-radius: 5;
   }
 }

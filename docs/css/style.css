@@ -25,6 +25,7 @@ p {
   line-height: 22px;
   font-size: 16px;
   font-weight: 300;
+  text-align: justify;
 }
 
 body {
@@ -91,7 +92,7 @@ a:hover {
 .social-share a {
   font-size: 20px;
   color: #fff;
-  background: #024cd5;
+  background: #073a97;
   padding: 4px 10px;
   display: inline-block;
 }
@@ -131,7 +132,7 @@ a:hover {
   background-size: cover;
   padding: 120px 0 25px 0;
   position: relative;
-  background: #024cd5;
+  background: #073a97;
   color: #fff;
 }
 .global-page-header h2 {
@@ -210,7 +211,7 @@ a:hover {
   display: block;
 }
 .navbar .nav-item .nav-link:hover {
-  color: #024cd5 !important;
+  color: #073a97 !important;
 }
 .navbar .nav-item:last-child .nav-link {
   padding-right: 0;
@@ -251,7 +252,7 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .dropdown-item:hover {
-  color: #024cd5 !important;
+  color: #073a97 !important;
   background: transparent;
 }
 .dropdown:hover .dropdown-menu {
@@ -302,6 +303,8 @@ a:hover {
   margin-top: 25px;
 }
 #hero-area .btn {
+  width: 100%;
+  max-width: 150px;
   background: #414141;
   border: none;
   color: #fff;
@@ -312,11 +315,11 @@ a:hover {
   line-height: 1em;
   text-transform: uppercase;
   letter-spacing: normal;
-  border-radius: 0;
+  border-radius: 5;
 }
 
 #call-to-action {
-  background: #024cd5;
+  background: #073a97;
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0;
@@ -342,7 +345,7 @@ a:hover {
 #call-to-action .block .btn-contact {
   background: #fff;
   border: 2px solid #fff;
-  color: #024cd5;
+  color: #073a97;
   padding: 15px 34px;
   margin-top: 20px;
   font-size: 12px;
@@ -356,7 +359,7 @@ a:hover {
 }
 #call-to-action .block .btn-contact:hover {
   color: #fff;
-  background: #024cd5;
+  background: #073a97;
 }
 
 #about {
@@ -503,8 +506,8 @@ figure .buttons {
   display: inline-block;
 }
 figure .buttons a:hover {
-  background: #024cd5;
-  border-color: #024cd5;
+  background: #073a97;
+  border-color: #073a97;
 }
 figure .buttons a:focus {
   text-decoration: none;
@@ -518,7 +521,7 @@ figure figcaption h4 {
   margin: 0;
 }
 figure figcaption h4 a {
-  color: #024cd5;
+  color: #073a97;
 }
 figure figcaption p {
   font-size: 14px;
@@ -552,7 +555,7 @@ figure figcaption p {
 #feature .icon {
   text-decoration: none;
   color: #fff;
-  background-color: #024cd5;
+  background-color: #073a97;
   height: 100px;
   text-align: center;
   width: 100px;
@@ -567,7 +570,7 @@ figure figcaption p {
 
 .wrapper_404 h1 {
   font-size: 200px;
-  color: #024cd5;
+  color: #073a97;
   line-height: 1;
 }
 .wrapper_404 h2 {
@@ -621,15 +624,19 @@ article {
   margin-top: 20px;
 }
 .blog-content .btn-details {
-  color: #024cd5;
+  color: #073a97;
   padding: 0;
-  background: #024cd5;
+  background: #073a97;
   color: #fff;
   padding: 8px 18px;
-  border-radius: 0;
+  border-radius: 5;
+  margin: 2px;
   margin-top: 15px;
-  border: 1px solid #fff;
-  box-shadow: 0px 0px 0px 1px #024cd5;
+}
+.blog-content .btn-details:hover {
+  color: #073a97;
+  background: #fff;
+  outline: 2px solid #073a97;
 }
 
 .blog-post-image {
@@ -694,7 +701,7 @@ article {
   font-size: 15px;
 }
 .sidebar .recent-post ul li a:hover {
-  color: #024cd5;
+  color: #073a97;
 }
 .sidebar .recent-post time {
   font-weight: 300;
@@ -719,9 +726,9 @@ article {
 #contact-section .contact-form .btn-send {
   color: #fff;
   outline: none;
-  background: #024cd5;
+  background: #073a97;
   transition: all linear 0.2s;
-  border-color: #024cd5;
+  border-color: #073a97;
   border-radius: 0;
 }
 #contact-section input {
@@ -763,7 +770,7 @@ article {
 }
 #contact-section .address i, #contact-section .email i, #contact-section .phone i {
   font-size: 45px;
-  color: #024cd5;
+  color: #073a97;
 }
 #contact-section .address h5, #contact-section .email h5, #contact-section .phone h5 {
   font-size: 16px;
@@ -829,7 +836,7 @@ article {
   padding: 30px 20px;
 }
 .single-post .media .media-body a {
-  color: #024cd5;
+  color: #073a97;
   font-size: 12px;
 }
 .single-post .media .media {
@@ -849,7 +856,7 @@ article {
   border-radius: 0;
 }
 .single-post .post-comment .btn-send {
-  background: #024cd5;
+  background: #073a97;
   color: #fff;
   border-radius: 0;
 }
@@ -890,7 +897,7 @@ article {
 
 .btn-work {
   color: #fff;
-  background: #024cd5;
+  background: #073a97;
   border-radius: 0;
 }
 
@@ -902,7 +909,7 @@ article {
 }
 #product-showcase-banner .block h2 {
   font-size: 40px;
-  color: #024cd5;
+  color: #073a97;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -1006,7 +1013,7 @@ article {
 }
 #related-items .block h4 span {
   float: right;
-  color: #024cd5;
+  color: #073a97;
 }
 #related-items .block .img-overly {
   position: relative;
@@ -1041,7 +1048,7 @@ article {
 }
 .service-page .service-parts .block i {
   font-size: 35px;
-  color: #024cd5;
+  color: #073a97;
 }
 .service-page .service-parts .block p {
   padding: 0 8px;
@@ -1070,7 +1077,7 @@ article {
   font-size: 13px;
 }
 .team-member h3 {
-  color: #024cd5;
+  color: #073a97;
   margin-bottom: 0;
   font-size: 20px;
 }
@@ -1078,7 +1085,7 @@ article {
   font-size: 14px;
 }
 .team-member .social-icons a {
-  background: #024cd5;
+  background: #073a97;
   color: #fff;
   padding: 4px 8px;
   display: inline-block;
@@ -1098,7 +1105,7 @@ article {
   margin-bottom: 0;
 }
 #footer .copyright a {
-  color: #024cd5;
+  color: #073a97;
 }
 #footer .social {
   text-align: right;
@@ -1110,11 +1117,11 @@ article {
 }
 #footer .social li a {
   font-size: 22px;
-  color: #024cd5;
+  color: #073a97;
 }
 
 .cd-headline.slide .cd-words-wrapper {
-  color: #024cd5;
+  color: #073a97;
 }
 
 ul.social-icons {
